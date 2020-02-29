@@ -2,7 +2,7 @@ name: Main workflow
 on: [push]
 jobs:
   run:
-    name: Run
+    name: Run Test
     runs-on: ${{ matrix.operating-system }}
     strategy:
       matrix:
